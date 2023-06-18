@@ -1,0 +1,47 @@
+.sign-up {
+  margin: auto;
+  color: #2a2a2a;
+  padding-top: 18rem;
+  background-image: linear-gradient(79deg, #9132c0, #c66fbc 48%, #f7944d);
+}
+.log-in {
+  background-image: linear-gradient(79deg, #9132c0, #c66fbc 48%, #f7944d);
+}
+.sign-up h1 {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.sign-up form {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+.sign-up input {
+  height: 2rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+.sign-up button {
+  display: inline;
+  cursor: pointer;
+  padding: 1rem;
+}
+.sign-up button:hover {
+  background-color: #01959a;
+}
+
+@media screen and (max-width: 850px) {
+  .sign-up {
+    margin: 4rem 2rem;
+  }
+  .sign-up form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}
